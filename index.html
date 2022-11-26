@@ -1,7 +1,9 @@
 <!doctype html>
+<meta charset="utf-8">
 <link rel="me" href="https://zick.kim/">
 <link rel="me" href="https://github.com/rummik">
 <link rel="me" href="https://mastodon.social/@rummik">
+<head></head>
 
 <title>Redirecting to github.com/rummik...</title>
 
@@ -10,5 +12,36 @@
 <p>Redirecting to <a href="https://github.com/rummik">github.com/rummik</a>...</p>
 
 <p><a href="https://github.com/rummik">
-  Tap/click here to navigate directly to my GitHub profile if you aren't automatically redirected.
+  Tap/click here if you aren't automatically redirected.
 </a></p>
+
+<style>
+:root {
+  --white: #faf8f8;
+  --black: #22112a;
+  --magenta: #ff74ef;
+  --orange: #ff6639;
+  --cyan: #46d5ce;
+  --green: #88e027;
+  --yellow: #fee900;
+
+  --text-color: var(--black);
+  --bg-color: var(--white);
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+a {
+  color: var(--orange);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: var(--white);
+    --bg-color: var(--black);
+  }
+}
+</style>
